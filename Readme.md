@@ -16,7 +16,7 @@ Java is a high-level, object-oriented, and platform-independent programming lang
 Before writing any code, you need to set up your development environment.
 
 ### Install the JDK (Java Development Kit):
--[Download JDK from Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
+- [Download JDK from Oracle](https://www.oracle.com/java/technologies/javase-downloads.html)
 
 
 ### Install an IDE (Integrated Development Environment):
@@ -27,6 +27,10 @@ Before writing any code, you need to set up your development environment.
 
 ## 2. Understand Java Basics
 Start with these core concepts:
+- [Memory Management](https://youtu.be/GnRyTqo6bTw?si=nxxY0dHonsLd_-wc)
+- [Garbage Collection](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
+
 
 
 
