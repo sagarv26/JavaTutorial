@@ -20,9 +20,9 @@ Before writing any code, you need to set up your development environment.
 
 
 ### Install an IDE (Integrated Development Environment):
--[IntelliJ IDEA](https://www.jetbrains.com/idea/)
--[Eclipse](https://www.jetbrains.com/idea/)
--[VS Code with the Java extension](https://www.jetbrains.com/idea/)
+- [IntelliJ IDEA](https://www.jetbrains.com/idea/)
+- [Eclipse](https://www.jetbrains.com/idea/)
+- [VS Code with the Java extension](https://www.jetbrains.com/idea/)
 
 
 ## 2. Understand Java Basics
