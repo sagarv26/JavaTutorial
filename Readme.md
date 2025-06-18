@@ -5,9 +5,9 @@ Learning Java in 2025 is still a great decision -  it's one of the most widely u
 
 
 ## What is Java?
+- [▶️ Watch here: Youtube Link](https://youtu.be/lp7E7JudXiY?si=9ZO7JtFvYCClyjRU)
 Java is a high-level, object-oriented, and platform-independent programming language developed by Sun Microsystems in 1995 (now owned by Oracle Corporation).
 
-- [What is Java?](https://youtu.be/lp7E7JudXiY?si=9ZO7JtFvYCClyjRU)
 
 ### How Java Works
 Java code goes through a compilation and interpretation process:
@@ -28,7 +28,9 @@ public class Hello {
 
 #### Explanation:
 ```java public class Hello``` → Defines a class named Hello
+
 ```java main(String[] args)``` → Entry point of the program
+
 ```java System.out.println()``` → Prints output to the console
 
 #### Resources
@@ -63,11 +65,13 @@ Start with these core concepts:
 
 ### Memory Management
 - [Youtube Link](https://youtu.be/GnRyTqo6bTw?si=nxxY0dHonsLd_-wc)
+
 Memory management in Java is a critical aspect of the language's runtime system, ensuring efficient use of memory resources and preventing memory leaks. Java memory management involves the automatic allocation and deallocation of objects, which is managed by the Java Virtual Machine (JVM). The JVM handles memory management automatically using its Garbage Collector (GC), which distinguishes it from languages like C or C++ where developers must manually manage memory.
 The JVM (Java Virtual Machine) memory structure is organized into several key areas that manage the execution of Java programs. Understanding this memory layout is essential for optimizing Java performance and troubleshooting issues like memory leaks or OutOfMemoryError.
 
 ### Garbage Collection
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 Garbage Collection is the process by which Java automatically removes unused (unreachable) objects from memory (heap), so you don’t have to do it manually.
 
 Java manages memory automatically using the Java Virtual Machine (JVM).
@@ -85,12 +89,14 @@ How GC works:
 
 ### Java Main Method
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 What is the main() Method in Java?
 public static void main(String[] args)
 It is the entry point of any standalone Java application. This is the method where the JVM begins execution of the program.
 
 ### Variables
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 In Java, variables are containers used to store data values. Each variable in Java has a type, which determines what kind of data it can hold.
 
 Types of Variables in Java
@@ -108,6 +114,7 @@ Data types in Java are classified into two types:
 
 ### Scope of Variables in Java
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 The scope of variables is the part of the program where the variable is accessible. Like C/C++, in Java, all identifiers are lexically (or statically) scoped, i.e., scope of a variable can be determined at compile time and independent of the function call stack. In this article, we will learn about Java Scope Variables.
 
 Java Scope Rules can be covered under the following categories. 
@@ -119,17 +126,21 @@ Java Scope Rules can be covered under the following categories.
 
 ### Java Operators
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 In Java, operators are special symbols used to perform operations on variables and values. Java provides a rich set of operators grouped into several categories.
 
 ### User Input in Java
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 In Java, there are multiple ways to get user input, depending on the use case and environment
 The scanner class can handle input from different places, like as we are typing at the console, reading from a file, or working with data streams. This class was introduced in Java 5. Before that, we used the BufferedReader class (introduced in Java 1.1). As a beginner, it's better to use the Scanner class.
 
 
 ## 3. Control Flow
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 ### Conditional Statement
+
 In Java, conditional statements control the flow of execution based on whether a condition is true or false. They allow your program to make decisions. i.e. if a certain condition is true then a block of statements is executed otherwise not.
 Types of Conditional Statements in Java
 - if Statement
@@ -147,26 +158,31 @@ Types of Loops in Java
 
 ## 4. Methods
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 In Java, methods are blocks of code that perform a specific task and can be called (invoked) at any point in a program simply by utilizing the method's name. They help in code reuse, modularity, and readability.
 In Java we call functions as methods, because here the methods can be written only inside class but not outside the class as in C++. Methods are used to tell the behaviour of the object.
 
 
 ## 5. Strings
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 A String in Java is a sequence of characters. Strings are immutable (cannot be changed once created), and Java treats them as objects of the String class in java.lang package
 
 ### StringBuffer and StringBuilder
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 StringBuffer and StringBuilder are Java classes used to create mutable (changeable) sequences of characters.
 
 Unlike String (which is immutable), you can modify the contents of StringBuffer and StringBuilder objects without creating new objects.
 
 ## 6. Arrays
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 An array in Java is a container object that holds a fixed number of elements of the same data type. It stores elements in a contiguous memory location, and you can access them using index numbers.
 
 ## 7. Java OOPs
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 Java is a purely object-oriented language (except for primitive types) and follows four main principles of OOP:
 - Encapsulation
 - Abstraction
@@ -179,18 +195,22 @@ The core idea of OOPs is to bind data and the functions that operate on it, prev
 
 ### Inheritance
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 Inheritance is one of the core concepts of Object-Oriented Programming (OOP) in Java. It allows a class (child/subclass) to inherit properties and behaviors (methods) from another class (parent/superclass).
 
 ### Encapsulation
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 Encapsulation is one of the four fundamental Object-Oriented Programming (OOP) principles in Java. It is the process of wrapping data (variables) and the code (methods) that operate on the data into a single unit called a class. Think of it as putting the data and the methods into a capsule (hence the name encapsulation).
 This allows the internal representation of an object to be hidden from the outside world. Instead of accessing fields directly, other classes interact with them through getter and setter methods.
 
 ### Polymorphism
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 In Java, polymorphism allows a single action (like calling a method) to behave differently based on the object that is performing the action.
 
 ### Abstraction
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+
 Abstraction is the process of hiding internal implementation details and showing only the essential features of an object.
 
