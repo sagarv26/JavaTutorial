@@ -5,11 +5,11 @@ Learning Java in 2025 is still a great decision -  it's one of the most widely u
 
 
 ## What is Java?
+[![What is Java?](http://img.youtube.com/vi/lp7E7JudXiY/0.jpg)](http://www.youtube.com/watch?v=lp7E7JudXiY)
+
 Java is a high-level, object-oriented, and platform-independent programming language developed by Sun Microsystems in 1995 (now owned by Oracle Corporation).
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lp7E7JudXiY" target="_blank"><img src="http://img.youtube.com/vi/lp7E7JudXiY/0.jpg" 
-alt="What is Java?" width="240" height="180" border="10"/></a>
-[![What is Java?](http://img.youtube.com/vi/lp7E7JudXiY/0.jpg)](http://www.youtube.com/watch?v=lp7E7JudXiY)
+
 
 ### How Java Works
 Java code goes through a compilation and interpretation process:
@@ -66,13 +66,13 @@ Before writing any code, you need to set up your development environment.
 Start with these core concepts:
 
 ### Memory Management
-- [Youtube Link](https://youtu.be/GnRyTqo6bTw?si=nxxY0dHonsLd_-wc)
+[![Memory Management](http://img.youtube.com/vi/GnRyTqo6bTw/0.jpg)](http://www.youtube.com/watch?v=GnRyTqo6bTw)
 
 Memory management in Java is a critical aspect of the language's runtime system, ensuring efficient use of memory resources and preventing memory leaks. Java memory management involves the automatic allocation and deallocation of objects, which is managed by the Java Virtual Machine (JVM). The JVM handles memory management automatically using its Garbage Collector (GC), which distinguishes it from languages like C or C++ where developers must manually manage memory.
 The JVM (Java Virtual Machine) memory structure is organized into several key areas that manage the execution of Java programs. Understanding this memory layout is essential for optimizing Java performance and troubleshooting issues like memory leaks or OutOfMemoryError.
 
 ### Garbage Collection
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Garbage Collection](http://img.youtube.com/vi/lbU625cLYsc/0.jpg)](http://www.youtube.com/watch?v=lbU625cLYsc)
 
 Garbage Collection is the process by which Java automatically removes unused (unreachable) objects from memory (heap), so you don’t have to do it manually.
 
@@ -87,7 +87,7 @@ How GC works:
 - If an object is no longer reachable (no live references), it becomes eligible for GC.
 
 ### Java Basic Syntax
-- [Youtube Link](https://youtu.be/mv_2ttCxMng?si=KJLcU3ui75KSF_JP)
+[![Garbage Collection](http://img.youtube.com/vi/mv_2ttCxMng/0.jpg)](http://www.youtube.com/watch?v=mv_2ttCxMng)
 
 ### Java Main Method
 - [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
