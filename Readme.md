@@ -5,12 +5,11 @@ Learning Java in 2025 is still a great decision -  it's one of the most widely u
 
 
 ## What is Java?
-[▶️ Watch here: What is Java?](https://youtu.be/lp7E7JudXiY?si=9ZO7JtFvYCClyjRU)
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=lp7E7JudXiY" target="_blank"><img src="http://img.youtube.com/vi/lp7E7JudXiY/0.jpg" 
-alt="What is Java?" width="240" height="180" border="10" /></a>
-
 Java is a high-level, object-oriented, and platform-independent programming language developed by Sun Microsystems in 1995 (now owned by Oracle Corporation).
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=lp7E7JudXiY" target="_blank"><img src="http://img.youtube.com/vi/lp7E7JudXiY/0.jpg" 
+alt="What is Java?" width="240" height="180" border="10"/></a>
+[![What is Java?](http://img.youtube.com/vi/lp7E7JudXiY/0.jpg)](http://www.youtube.com/watch?v=lp7E7JudXiY)
 
 ### How Java Works
 Java code goes through a compilation and interpretation process:
