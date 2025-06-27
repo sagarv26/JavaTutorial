@@ -137,6 +137,20 @@ In Java, operators are special symbols used to perform operations on variables a
 In Java, there are multiple ways to get user input, depending on the use case and environment
 The scanner class can handle input from different places, like as we are typing at the console, reading from a file, or working with data streams. This class was introduced in Java 5. Before that, we used the BufferedReader class (introduced in Java 1.1). As a beginner, it's better to use the Scanner class.
 
+#### Scanner 
+- Import the Scanner class using import java.util.Scanner;
+- Create the Scanner object and connect Scanner with System.in by passing it as an argument i.e., Scanner sc = new Scanner(System.in);
+- When we want to ask the user for input, first print a prompt message so they know what to enter
+
+#### BufferedReader
+Faster than Scanner for large input, but requires exception handling and manual parsing.
+
+#### Console
+Only works in the actual terminal/console, not in most IDEs.
+
+#### Command Line Arguments
+Takes input when the program is run.
+
 
 ## 3. Control Flow
 [![Control Flow](http://img.youtube.com/vi/8uGfolkWDmc/0.jpg)](http://www.youtube.com/watch?v=8uGfolkWDmc)
@@ -164,11 +178,43 @@ Types of Loops in Java
 In Java, methods are blocks of code that perform a specific task and can be called (invoked) at any point in a program simply by utilizing the method's name. They help in code reuse, modularity, and readability.
 In Java we call functions as methods, because here the methods can be written only inside class but not outside the class as in C++. Methods are used to tell the behaviour of the object.
 
+### Types of Methods
+
+- Predefined (Built-in): Provided by Java (e.g., System.out.println())
+- User-defined: Created by the programmer
+- Static: Belongs to class, not object (no object needed)
+- Instance: Needs object of the class to be called
+- Void: Returns nothing
+- Return type methods: Returns a value (e.g., int, String)
 
 ## 5. Strings
 [![Strings](http://img.youtube.com/vi/Uk1kROHV8zE/0.jpg)](http://www.youtube.com/watch?v=Uk1kROHV8zE)
 
 A String in Java is a sequence of characters. Strings are immutable (cannot be changed once created), and Java treats them as objects of the String class in java.lang package
+### Creating Strings
+
+#### Using String Literals (Recommended)
+
+```String name = "SWE";```
+
+- Stored in the String Pool
+- Saves memory by reusing existing objects
+
+#### Using new Keyword
+
+```String city = new String("Mumbai");```
+
+- Stored in Heap memory
+- Creates a new object every time, even if the content is the same
+
+### String Memory Allocation
+In Java, strings are treated differently in memory based on how they are created. This is crucial for performance and understanding immutability, object reuse, and memory optimization.
+
+#### Java String Pool (String Constant Pool)
+- Located in the Method Area of JVM memory.
+- Maintains a pool of unique string literals.
+- Saves memory by reusing strings with the same value.
+
 
 ### StringBuffer and StringBuilder
 [![StringBuffer and StringBuilder](http://img.youtube.com/vi/2tDUAIYLPK0/0.jpg)](http://www.youtube.com/watch?v=2tDUAIYLPK0)
@@ -176,6 +222,38 @@ A String in Java is a sequence of characters. Strings are immutable (cannot be c
 StringBuffer and StringBuilder are Java classes used to create mutable (changeable) sequences of characters.
 
 Unlike String (which is immutable), you can modify the contents of StringBuffer and StringBuilder objects without creating new objects.
+
+#### StringBuffer
+StringBuffer is a thread-safe, mutable sequence of characters. All methods are synchronized (safe for use by multiple threads).
+```
+public class StringBufferExample {
+    public static void main(String[] args) {
+        StringBuffer sb = new StringBuffer("Java");
+
+        sb.append(" Programming");              // Adds text
+        sb.insert(4, " Language");              // Inserts at index 4
+        sb.replace(0, 4, "Core");               // Replaces "Java" with "Core"
+        sb.delete(4, 13);                       // Deletes " Language"
+
+        System.out.println("Result: " + sb);    // Output: CoreProgramming
+    }
+}
+```
+
+#### StringBuilder
+StringBuilder is not thread-safe, but it is faster. It is ideal when you are working in a single-threaded environment.
+```
+public class StringBuilderExample {
+    public static void main(String[] args) {
+        StringBuilder sb = new StringBuilder("Hello");
+
+        sb.append(" World");     // Add text at the end
+        sb.reverse();            // Reverse the string
+
+        System.out.println("Reversed: " + sb);  // Output: dlroW olleH
+    }
+}
+```
 
 ## 6. Arrays
 [![Arrays](http://img.youtube.com/vi/6ppOaD9t-rk/0.jpg)](http://www.youtube.com/watch?v=M6ppOaD9t-rk)
