@@ -87,17 +87,17 @@ How GC works:
 - If an object is no longer reachable (no live references), it becomes eligible for GC.
 
 ### Java Basic Syntax
-[![Garbage Collection](http://img.youtube.com/vi/mv_2ttCxMng/0.jpg)](http://www.youtube.com/watch?v=mv_2ttCxMng)
+[![Java Basic Syntax](http://img.youtube.com/vi/mv_2ttCxMng/0.jpg)](http://www.youtube.com/watch?v=mv_2ttCxMng)
 
 ### Java Main Method
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Java Main Method](http://img.youtube.com/vi/MMFrMmpFD_k/0.jpg)](http://www.youtube.com/watch?v=MMFrMmpFD_k)
 
 What is the main() Method in Java?
 public static void main(String[] args)
 It is the entry point of any standalone Java application. This is the method where the JVM begins execution of the program.
 
 ### Variables
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Variables](http://img.youtube.com/vi/mY17oDiED3A/0.jpg)](http://www.youtube.com/watch?v=mY17oDiED3A)
 
 In Java, variables are containers used to store data values. Each variable in Java has a type, which determines what kind of data it can hold.
 
@@ -115,7 +115,7 @@ Data types in Java are classified into two types:
 - Non-primitive - which include Classes, Interfaces, Object type and Array
 
 ### Scope of Variables in Java
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Scope of Variables](http://img.youtube.com/vi/NRzS1MY3sIg/0.jpg)](http://www.youtube.com/watch?v=NRzS1MY3sIg)
 
 The scope of variables is the part of the program where the variable is accessible. Like C/C++, in Java, all identifiers are lexically (or statically) scoped, i.e., scope of a variable can be determined at compile time and independent of the function call stack. In this article, we will learn about Java Scope Variables.
 
@@ -127,19 +127,19 @@ Java Scope Rules can be covered under the following categories.
 - Block Scope
 
 ### Java Operators
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Java Operators](http://img.youtube.com/vi/hDHohiT0vu0/0.jpg)](http://www.youtube.com/watch?v=hDHohiT0vu0)
 
 In Java, operators are special symbols used to perform operations on variables and values. Java provides a rich set of operators grouped into several categories.
 
 ### User Input in Java
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![User Input in Java](http://img.youtube.com/vi/aHoTALikgzk/0.jpg)](http://www.youtube.com/watch?v=aHoTALikgzk)
 
 In Java, there are multiple ways to get user input, depending on the use case and environment
 The scanner class can handle input from different places, like as we are typing at the console, reading from a file, or working with data streams. This class was introduced in Java 5. Before that, we used the BufferedReader class (introduced in Java 1.1). As a beginner, it's better to use the Scanner class.
 
 
 ## 3. Control Flow
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Control Flow](http://img.youtube.com/vi/8uGfolkWDmc/0.jpg)](http://www.youtube.com/watch?v=8uGfolkWDmc)
 
 ### Conditional Statement
 
@@ -159,31 +159,31 @@ Types of Loops in Java
 - do-while loop
 
 ## 4. Methods
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Methods](http://img.youtube.com/vi/-mjhWW5z6cM/0.jpg)](http://www.youtube.com/watch?v=-mjhWW5z6cM)
 
 In Java, methods are blocks of code that perform a specific task and can be called (invoked) at any point in a program simply by utilizing the method's name. They help in code reuse, modularity, and readability.
 In Java we call functions as methods, because here the methods can be written only inside class but not outside the class as in C++. Methods are used to tell the behaviour of the object.
 
 
 ## 5. Strings
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Strings](http://img.youtube.com/vi/Uk1kROHV8zE/0.jpg)](http://www.youtube.com/watch?v=Uk1kROHV8zE)
 
 A String in Java is a sequence of characters. Strings are immutable (cannot be changed once created), and Java treats them as objects of the String class in java.lang package
 
 ### StringBuffer and StringBuilder
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![StringBuffer and StringBuilder](http://img.youtube.com/vi/2tDUAIYLPK0/0.jpg)](http://www.youtube.com/watch?v=2tDUAIYLPK0)
 
 StringBuffer and StringBuilder are Java classes used to create mutable (changeable) sequences of characters.
 
 Unlike String (which is immutable), you can modify the contents of StringBuffer and StringBuilder objects without creating new objects.
 
 ## 6. Arrays
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Arrays](http://img.youtube.com/vi/6ppOaD9t-rk/0.jpg)](http://www.youtube.com/watch?v=M6ppOaD9t-rk)
 
 An array in Java is a container object that holds a fixed number of elements of the same data type. It stores elements in a contiguous memory location, and you can access them using index numbers.
 
 ## 7. Java OOPs
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![OOPs](http://img.youtube.com/vi/JV1i9xhYTUM/0.jpg)](http://www.youtube.com/watch?v=JV1i9xhYTUM)
 
 Java is a purely object-oriented language (except for primitive types) and follows four main principles of OOP:
 - Encapsulation
@@ -196,23 +196,112 @@ Java Object-Oriented Programming (OOPs) is a fundamental concept in Java that ev
 The core idea of OOPs is to bind data and the functions that operate on it, preventing unauthorized access from other parts of the code. Java strictly follows the DRY (Don't Repeat Yourself) Principle, ensuring that common logic is written once (e.g., in parent classes or utility methods) and reused throughout the application.
 
 ### Inheritance
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Inheritance](http://img.youtube.com/vi/kcaFURLTtEg/0.jpg)](http://www.youtube.com/watch?v=kcaFURLTtEg))
 
 Inheritance is one of the core concepts of Object-Oriented Programming (OOP) in Java. It allows a class (child/subclass) to inherit properties and behaviors (methods) from another class (parent/superclass).
 
 ### Encapsulation
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Encapsulation](http://img.youtube.com/vi/_jK5HR811sE/0.jpg)](http://www.youtube.com/watch?v=_jK5HR811sE)
 
 Encapsulation is one of the four fundamental Object-Oriented Programming (OOP) principles in Java. It is the process of wrapping data (variables) and the code (methods) that operate on the data into a single unit called a class. Think of it as putting the data and the methods into a capsule (hence the name encapsulation).
 This allows the internal representation of an object to be hidden from the outside world. Instead of accessing fields directly, other classes interact with them through getter and setter methods.
 
 ### Polymorphism
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Polymorphism](http://img.youtube.com/vi/r4Cul7QZn0g0.jpg)](http://www.youtube.com/watch?v=r4Cul7QZn0g)
 
 In Java, polymorphism allows a single action (like calling a method) to behave differently based on the object that is performing the action.
 
 ### Abstraction
-- [Youtube Link](https://youtu.be/lbU625cLYsc?si=yAk1hZV1E1JjBkag)
+[![Abstraction](http://img.youtube.com/vi/D1MG2N-vbQY/0.jpg)](http://www.youtube.com/watch?v=D1MG2N-vbQY)
 
 Abstraction is the process of hiding internal implementation details and showing only the essential features of an object.
+
+### Casting in Java
+[![Casting](http://img.youtube.com/vi/xLyWVcI67Ao/0.jpg)](http://www.youtube.com/watch?v=xLyWVcI67Ao)
+
+Casting is the process of converting a variable from one type to another.
+Java supports two main types of casting:
+- Primitive Type Casting
+- Reference Type Casting (also called Object Casting)
+
+### Object Class
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+Object class is the super class of all the classes in java. The Object class reference can be given to any child object or any class object. Every class in the Java system is a descendent (direct or indirect) of the Object class
+Every class you create in Java automatically extends Object (if no other superclass is specified).
+
+### Java Collections
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+The Java Collection Framework (JCF) is a unified architecture for storing and manipulating groups of objects.
+It provides ready-to-use classes and interfaces to handle data structures like lists, sets, queues, maps, etc.
+
+- Package:
+java.util.*
+
+#### Why Use Collection Framework?
+Let’s say you're building an e-commerce site. You'll need a cart that grows dynamically, a set of unique product categories, and maybe a queue for processing orders. Collections like ArrayList, HashSet, and PriorityQueue make all this easy.
+
+### Error Handling
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+In Java, error handling means catching and responding to problems during your program’s execution - like a file not found, invalid input, or insufficient balance in a bank account.
+
+Understanding error handling in Java is essential for building reliable, robust, and user-friendly applications.
+
+Error handling is the process of responding to unexpected events (errors) that occur during program execution, without crashing the program.
+Java uses a structured way of doing this using keywords like try, catch, finally, throw, and throws.
+
+
+### Multithreading
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+Multithreading is the process of executing multiple threads simultaneously to perform tasks concurrently.
+
+Multithreading allows a program to perform multiple tasks at the same time by running multiple threads in parallel.
+
+Think of a thread as a lightweight process. By using multiple threads, you can make your applications faster, more responsive, and more efficient.
+
+
+### Thread Synchronization
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+Thread Synchronization is a mechanism to control the access of multiple threads to shared resources.
+
+When two or more threads try to access a shared resource simultaneously, there can be inconsistent behavior or data corruption. To prevent this, we use synchronization to make sure only one thread can access the critical section at a time.
+
+### Thread safety
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+Thread safety means that a class or method behaves correctly when accessed by multiple threads simultaneously. A thread-safe component prevents unintended interactions, even if several threads operate on the same data.
+
+Thread safety is crucial in multithreaded Java programs to avoid issues like data corruption, race conditions, and inconsistent behavior.
+
+### Singleton
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+A Singleton is a design pattern that ensures only one instance of a class is created and provides a global access point to that instance.
+
+You use Singleton when you only need one object - like a logger, a database connection pool, or a configuration manager. Imagine having multiple connections trying to manage a single printer - chaos!
+
+
+### Lazy Initializationl
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+Lazy Initialization means delaying the creation (or initialization) of an object or resource until it is actually needed - instead of doing it during program start-up.
+
+### Wrapper Classes
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+In Java, wrapper classes are object representations of primitive data types.
+
+Java has eight primitive types:
+- byte, short, int, long, float, double, char, boolean
+
+### Regex
+- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+
+Regex (Regular Expression) is a pattern-matching technique used to search, manipulate, and validate strings based on specific patterns.
+
+In Java, regex is provided via the java.util.regex package, In Java, Regex is powered by two core classes: Pattern to define the rules, and Matcher to apply those rules to user input..
 
