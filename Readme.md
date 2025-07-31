@@ -255,6 +255,11 @@ public class StringBuilderExample {
 }
 ```
 
+##### Tip:
+- Use String when the content does not change.
+- Use StringBuffer in multi-threaded environments where thread safety is needed.
+- Use StringBuilder in single-threaded programs for better performance.
+
 ## 6. Arrays
 [![Arrays](http://img.youtube.com/vi/6ppOaD9t-rk/0.jpg)](http://www.youtube.com/watch?v=M6ppOaD9t-rk)
 
@@ -303,13 +308,13 @@ Java supports two main types of casting:
 - Reference Type Casting (also called Object Casting)
 
 ### Object Class
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+[![Casting](http://img.youtube.com/vi/tNrYAMPorA8/0.jpg)](http://www.youtube.com/watch?v=tNrYAMPorA8)
 
 Object class is the super class of all the classes in java. The Object class reference can be given to any child object or any class object. Every class in the Java system is a descendent (direct or indirect) of the Object class
 Every class you create in Java automatically extends Object (if no other superclass is specified).
 
-### Java Collections
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+## 8. Java Collections
+[![Casting](http://img.youtube.com/vi/AdAviz6-yq0/0.jpg)](http://www.youtube.com/watch?v=AdAviz6-yq0)
 
 The Java Collection Framework (JCF) is a unified architecture for storing and manipulating groups of objects.
 It provides ready-to-use classes and interfaces to handle data structures like lists, sets, queues, maps, etc.
@@ -320,8 +325,8 @@ java.util.*
 #### Why Use Collection Framework?
 Let’s say you're building an e-commerce site. You'll need a cart that grows dynamically, a set of unique product categories, and maybe a queue for processing orders. Collections like ArrayList, HashSet, and PriorityQueue make all this easy.
 
-### Error Handling
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+## 9. Error Handling
+[![Casting](http://img.youtube.com/vi/4oTeH8X0aFU/0.jpg)](http://www.youtube.com/watch?v=4oTeH8X0aFU)
 
 In Java, error handling means catching and responding to problems during your program’s execution - like a file not found, invalid input, or insufficient balance in a bank account.
 
@@ -331,8 +336,8 @@ Error handling is the process of responding to unexpected events (errors) that o
 Java uses a structured way of doing this using keywords like try, catch, finally, throw, and throws.
 
 
-### Multithreading
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+## 10. Multithreading
+[![Casting](http://img.youtube.com/vi/4oTeH8X0aFU/0.jpg)](http://www.youtube.com/watch?v=4oTeH8X0aFU)
 
 Multithreading is the process of executing multiple threads simultaneously to perform tasks concurrently.
 
@@ -342,44 +347,87 @@ Think of a thread as a lightweight process. By using multiple threads, you can m
 
 
 ### Thread Synchronization
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+[![Casting](http://img.youtube.com/vi/rVjQG9oeibg/0.jpg)](http://www.youtube.com/watch?v=rVjQG9oeibg)
 
 Thread Synchronization is a mechanism to control the access of multiple threads to shared resources.
 
 When two or more threads try to access a shared resource simultaneously, there can be inconsistent behavior or data corruption. To prevent this, we use synchronization to make sure only one thread can access the critical section at a time.
 
 ### Thread safety
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+[![Casting](http://img.youtube.com/vi/_M1w6JJ8-3M/0.jpg)](http://www.youtube.com/watch?v=_M1w6JJ8-3M)
 
 Thread safety means that a class or method behaves correctly when accessed by multiple threads simultaneously. A thread-safe component prevents unintended interactions, even if several threads operate on the same data.
 
 Thread safety is crucial in multithreaded Java programs to avoid issues like data corruption, race conditions, and inconsistent behavior.
 
-### Singleton
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+## 11. Singleton
+[![Casting](http://img.youtube.com/vi/sUAALQwmYTw/0.jpg)](http://www.youtube.com/watch?v=sUAALQwmYTw)
 
 A Singleton is a design pattern that ensures only one instance of a class is created and provides a global access point to that instance.
 
 You use Singleton when you only need one object - like a logger, a database connection pool, or a configuration manager. Imagine having multiple connections trying to manage a single printer - chaos!
 
 
-### Lazy Initializationl
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+## 12. Lazy Initialization
+[![Casting](http://img.youtube.com/vi/XEjnMQMWow8/0.jpg)](http://www.youtube.com/watch?v=XEjnMQMWow8)
 
 Lazy Initialization means delaying the creation (or initialization) of an object or resource until it is actually needed - instead of doing it during program start-up.
 
-### Wrapper Classes
-- [Watch Here:](https://youtu.be/MC8WvbTtOwY)
+## 13. Wrapper Classes
+[![Casting](http://img.youtube.com/vi/xLyWVcI67Ao/0.jpg)](http://www.youtube.com/watch?v=xLyWVcI67Ao)
 
 In Java, wrapper classes are object representations of primitive data types.
 
 Java has eight primitive types:
 - byte, short, int, long, float, double, char, boolean
 
-### Regex
+## 14. Regex
 - [Watch Here:](https://youtu.be/MC8WvbTtOwY)
 
 Regex (Regular Expression) is a pattern-matching technique used to search, manipulate, and validate strings based on specific patterns.
 
 In Java, regex is provided via the java.util.regex package, In Java, Regex is powered by two core classes: Pattern to define the rules, and Matcher to apply those rules to user input..
 
+
+## 15. Java File Handling
+File handling is one of the core features in Java that allows you to create, read, update, and delete files from within your program.
+Java provides robust APIs to handle file operations using streams.
+
+File handling is used in:
+- Logging system outputs
+- Reading configuration files
+- Writing reports or logs
+- Storing persistent user data (e.g., CSV, TXT, JSON)
+
+### Stream
+A stream in Java represents a sequence of data. It is used to read from or write to files.
+Streams are of two types:
+
+- Byte Stream: For binary data (e.g., images, videos)
+ → Classes: FileInputStream, FileOutputStream
+- Character Stream: For textual data (e.g., .txt, .csv)
+ → Classes: FileReader, FileWriter, BufferedReader, BufferedWriter
+ 
+## 15. JDBC
+JDBC stands for Java Database Connectivity.
+It is a Java API that allows Java applications to connect to relational databases like MySQL, Oracle, PostgreSQL, etc.
+
+Why is JDBC Used?
+- To establish a connection between a Java application and a database
+- To execute SQL queries
+- To retrieve and process data
+- To update or modify database records 
+
+## 16. LDAP
+To perform LDAP (Lightweight Directory Access Protocol) operations using Java, you typically use the JNDI (Java Naming and Directory Interface API. This allows Java applications to interact with directory services such as Active Directory, OpenLDAP, or ApacheDS.
+
+## 17. Serialization
+Serialization is the process of converting a Java object into a byte stream, so it can be easily saved to a file, sent over a network, or stored in memory or a database.
+
+Deserialization is the reverse process - converting the byte stream back into a Java object.
+
+## 18. Call by Value
+When a variable is passed to a method, a copy of the variable's value is made and passed.
+
+- For primitive types, this means the actual value is copied.
+- For objects, the value of the reference (i.e., the memory address) is copied — not the actual object itself.
