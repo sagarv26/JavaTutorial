@@ -290,7 +290,7 @@ Encapsulation is one of the four fundamental Object-Oriented Programming (OOP) p
 This allows the internal representation of an object to be hidden from the outside world. Instead of accessing fields directly, other classes interact with them through getter and setter methods.
 
 ### Polymorphism
-[![Polymorphism](http://img.youtube.com/vi/r4Cul7QZn0g0.jpg)](http://www.youtube.com/watch?v=r4Cul7QZn0g)
+[![Polymorphism](http://img.youtube.com/vi/r4Cul7QZn0g0/0.jpg)](http://www.youtube.com/watch?v=r4Cul7QZn0g)
 
 In Java, polymorphism allows a single action (like calling a method) to behave differently based on the object that is performing the action.
 
@@ -335,6 +335,19 @@ Understanding error handling in Java is essential for building reliable, robust,
 Error handling is the process of responding to unexpected events (errors) that occur during program execution, without crashing the program.
 Java uses a structured way of doing this using keywords like try, catch, finally, throw, and throws.
 
+#### Classification 
+```
+Throwable
+├── Error Serious problems (not handled)
+│   ├── OutOfMemoryError
+│   ├── StackOverflowError
+│   └── VirtualMachineError
+│
+└── Exception Recoverable problems (we handle these)
+    ├── Checked (IOException,SQLException) Must be declared or handled
+    └── Unchecked (NullPointerException, ArithmeticException) Runtime exceptions
+
+```
 
 ## 10. Multithreading
 [![Casting](http://img.youtube.com/vi/4oTeH8X0aFU/0.jpg)](http://www.youtube.com/watch?v=4oTeH8X0aFU)
@@ -345,6 +358,45 @@ Multithreading allows a program to perform multiple tasks at the same time by ru
 
 Think of a thread as a lightweight process. By using multiple threads, you can make your applications faster, more responsive, and more efficient.
 
+Java provides two ways to create threads:
+### 1. By Extending Thread Class
+```
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        t1.start(); // Starts a new thread
+    }
+}
+```
+#### 2. Implementing Runnable Interface
+```
+class MyRunnable implements Runnable {
+    public void run() {
+        System.out.println("Runnable thread is running...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Thread t1 = new Thread(new MyRunnable());
+        t1.start();
+    }
+}
+```
+Preferred: Implementing Runnable is better because Java supports multiple interfaces but only single inheritance.
+
+#### Thread Lifecycle
+New – Created but not started.
+Runnable – Ready to run.
+Running – Currently executing.
+Blocked/Waiting – Waiting for resources.
+Terminated – Completed or stopped.
 
 ### Thread Synchronization
 [![Casting](http://img.youtube.com/vi/rVjQG9oeibg/0.jpg)](http://www.youtube.com/watch?v=rVjQG9oeibg)
